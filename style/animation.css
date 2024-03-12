@@ -1,0 +1,91 @@
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes slideInFromLeft {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        .slide-in {
+            animation: slideInFromLeft 2s ease-in-out;
+        }
+        .slide-in2 {
+            animation: slideInFromLeft 1s ease-in-out;
+        }
+
+        @keyframes fadeInFromLeft {
+            0% {
+                opacity: 0;
+                transform: translateX(-20px); /* Mulai dengan pergeseran -20px dari kiri */
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0); /* Akhiri di posisi normal */
+            }
+        }
+
+        .fade-in-left {
+            animation: fadeInFromLeft 1s ease-in-out; /* Gunakan durasi dan efek yang diinginkan */
+        }
+        
+        @keyframes slideUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px); /* Mulai dengan pergeseran 20px dari bawah */
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0); /* Akhiri di posisi normal */
+            }
+        }
+
+        @keyframes slideDown {
+            0% {
+                opacity: 1;
+                transform: translateY(0); /* Mulai dari posisi normal */
+            }
+            100% {
+                opacity: 0;
+                transform: translateY(20px); /* Akhiri dengan pergeseran 20px ke bawah */
+            }
+        }
+
+        .slide-up {
+            animation: slideUp 1s ease-in-out; /* Gunakan durasi dan efek yang diinginkan */
+        }
+        .slide-up2 {
+            animation: slideUp 2s ease-in-out; /* Gunakan durasi dan efek yang diinginkan */
+        }
+
+        .slide-down {
+            animation: slideDown 1s ease-in-out; /* Gunakan durasi dan efek yang diinginkan */
+        }
+
+        @keyframes fadeInRight {
+            0% {
+                opacity: 0;
+                transform: translateX(20px); /* Mulai dengan pergeseran -20px dari kiri */
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0); /* Akhiri di posisi normal */
+            }
+        }
+
+        .fade-in-right {
+            animation: fadeInRight 1s ease-in-out; /* Gunakan durasi dan efek yang diinginkan */
+        }
